@@ -1,6 +1,6 @@
 import 'package:material_ui/material_ui.dart';
 
-import 'screens/accueil_screen.dart';
+import 'screens/connexion_screen.dart';
 import 'theme/app_theme.dart';
 
 // ---------------------------------------------------------------------------
@@ -15,7 +15,7 @@ import 'theme/app_theme.dart';
 //   import 'screens/connexion_screen.dart';          home: const ConnexionScreen(),
 //   import 'screens/inscription_screen.dart';        home: const InscriptionScreen(),
 //   import 'screens/mot_de_passe_oublie_screen.dart'; home: const MotDePasseOublieScreen(),
-//   import 'screens/accueil_screen.dart';            home: const AccueilScreen(),
+//   import 'screens/accueil_screen.dart';            home: const ConnexionScreen(),
 //   import 'screens/recherche_screen.dart';          home: const RechercheScreen(),
 //   import 'screens/detail_annonce_screen.dart';     home: const DetailAnnonceScreen(),
 //   import 'screens/publier_annonce_screen.dart';    home: const PublierAnnonceScreen(),
@@ -48,7 +48,7 @@ class DeukendoApp extends StatelessWidget {
       title: 'Deukendo',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: const AccueilScreen(),
+      home: const ConnexionScreen(),
     );
   }
 }
